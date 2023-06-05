@@ -24,6 +24,7 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [👥 Future Features](#feature_futures)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -136,6 +137,12 @@ You can deploy this project on Render. Please follow [this render deployment gui
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+## 👥 Future Features <a name="feature_futures"></a>
+
+- **[Create Full fledged app with other CRUD functionalities for greetings]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
