@@ -11,10 +11,9 @@
 Quote.destroy_all
 
 Quote.create([
-               { name: 'It has become appallingly obvious that our technology has exceeded our humanity - Albert Einstein, Scientist' },
-               { name: 'If it keeps up, man will atrophy all his limbs but the push-button finger. - Frank Lloyd Wright, Architect' },
-               { name: 'Technology is a useful servant but a dangerous master. - Christian Lous Lange, Historian' },
-               { name: "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.
-    Bill Gates, Co-founder of Microsoft" },
-               { name: 'Technology is best when it brings people together. - Matt Mullenweg, Social Media Entrepreneur' }
+               { name: 'Hello User, This is Rails App with React in the same project' },
+               { name: 'Hallo Benutzer, dies ist eine Rails-App mit React im selben Projekt' },
+               { name: 'Hallo gebruiker, dit is de Rails-app met React in hetzelfde project' },
+               { name: "Hola usuario, esta es la aplicación Rails con React en el mismo proyecto" },
+               { name: 'Hej bruger, dette er Rails App med React i samme projekt' }
              ])
