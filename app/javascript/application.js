@@ -3,11 +3,23 @@ import '@hotwired/turbo-rails';
 import './controllers';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import ReactDOM from 'react-dom';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Quotes from './components/quotes';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 const App = () => {
-  return <h1>Hello Rails!</h1>;
+  return (
+    <Routes>
+      <Route index element={<Quotes />} />
+    </Routes>
+  );
 };
 
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(
+  <BrowserRouter>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </BrowserRouter>
+);
