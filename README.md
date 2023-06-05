@@ -105,6 +105,7 @@ Install this project with:
 ```sh
   cd hellorails-react
   bundle install
+  yarn install
 ```
 
 ### Usage
